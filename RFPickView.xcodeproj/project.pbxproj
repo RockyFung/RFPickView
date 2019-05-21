@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CC3DE152293FAC400C004DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3DE142293FAC400C004DE /* AppDelegate.swift */; };
+		5CC3DE172293FAC400C004DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3DE162293FAC400C004DE /* ViewController.swift */; };
+		5CC3DE1A2293FAC400C004DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3DE182293FAC400C004DE /* Main.storyboard */; };
+		5CC3DE1C2293FAC600C004DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3DE1B2293FAC600C004DE /* Assets.xcassets */; };
+		5CC3DE1F2293FAC600C004DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3DE1D2293FAC600C004DE /* LaunchScreen.storyboard */; };
+		5CC3DE2A2293FAC600C004DE /* RFPickViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3DE292293FAC600C004DE /* RFPickViewTests.swift */; };
+		5CC3DE352293FAC600C004DE /* RFPickViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3DE342293FAC600C004DE /* RFPickViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CC3DE262293FAC600C004DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC3DE092293FAC400C004DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC3DE102293FAC400C004DE;
+			remoteInfo = RFPickView;
+		};
+		5CC3DE312293FAC600C004DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC3DE092293FAC400C004DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC3DE102293FAC400C004DE;
+			remoteInfo = RFPickView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CC3DE112293FAC400C004DE /* RFPickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFPickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC3DE142293FAC400C004DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CC3DE162293FAC400C004DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CC3DE192293FAC400C004DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CC3DE1B2293FAC600C004DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CC3DE1E2293FAC600C004DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CC3DE202293FAC600C004DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC3DE252293FAC600C004DE /* RFPickViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFPickViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC3DE292293FAC600C004DE /* RFPickViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFPickViewTests.swift; sourceTree = "<group>"; };
+		5CC3DE2B2293FAC600C004DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC3DE302293FAC600C004DE /* RFPickViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFPickViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC3DE342293FAC600C004DE /* RFPickViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFPickViewUITests.swift; sourceTree = "<group>"; };
+		5CC3DE362293FAC600C004DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CC3DE0E2293FAC400C004DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC3DE222293FAC600C004DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC3DE2D2293FAC600C004DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CC3DE082293FAC400C004DE = {
+			isa = PBXGroup;
+			children = (
+				5CC3DE132293FAC400C004DE /* RFPickView */,
+				5CC3DE282293FAC600C004DE /* RFPickViewTests */,
+				5CC3DE332293FAC600C004DE /* RFPickViewUITests */,
+				5CC3DE122293FAC400C004DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CC3DE122293FAC400C004DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC3DE112293FAC400C004DE /* RFPickView.app */,
+				5CC3DE252293FAC600C004DE /* RFPickViewTests.xctest */,
+				5CC3DE302293FAC600C004DE /* RFPickViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CC3DE132293FAC400C004DE /* RFPickView */ = {
+			isa = PBXGroup;
+			children = (
+				5CC3DE142293FAC400C004DE /* AppDelegate.swift */,
+				5CC3DE162293FAC400C004DE /* ViewController.swift */,
+				5CC3DE182293FAC400C004DE /* Main.storyboard */,
+				5CC3DE1B2293FAC600C004DE /* Assets.xcassets */,
+				5CC3DE1D2293FAC600C004DE /* LaunchScreen.storyboard */,
+				5CC3DE202293FAC600C004DE /* Info.plist */,
+			);
+			path = RFPickView;
+			sourceTree = "<group>";
+		};
+		5CC3DE282293FAC600C004DE /* RFPickViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC3DE292293FAC600C004DE /* RFPickViewTests.swift */,
+				5CC3DE2B2293FAC600C004DE /* Info.plist */,
+			);
+			path = RFPickViewTests;
+			sourceTree = "<group>";
+		};
+		5CC3DE332293FAC600C004DE /* RFPickViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC3DE342293FAC600C004DE /* RFPickViewUITests.swift */,
+				5CC3DE362293FAC600C004DE /* Info.plist */,
+			);
+			path = RFPickViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CC3DE102293FAC400C004DE /* RFPickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC3DE392293FAC600C004DE /* Build configuration list for PBXNativeTarget "RFPickView" */;
+			buildPhases = (
+				5CC3DE0D2293FAC400C004DE /* Sources */,
+				5CC3DE0E2293FAC400C004DE /* Frameworks */,
+				5CC3DE0F2293FAC400C004DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFPickView;
+			productName = RFPickView;
+			productReference = 5CC3DE112293FAC400C004DE /* RFPickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CC3DE242293FAC600C004DE /* RFPickViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC3DE3C2293FAC600C004DE /* Build configuration list for PBXNativeTarget "RFPickViewTests" */;
+			buildPhases = (
+				5CC3DE212293FAC600C004DE /* Sources */,
+				5CC3DE222293FAC600C004DE /* Frameworks */,
+				5CC3DE232293FAC600C004DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC3DE272293FAC600C004DE /* PBXTargetDependency */,
+			);
+			name = RFPickViewTests;
+			productName = RFPickViewTests;
+			productReference = 5CC3DE252293FAC600C004DE /* RFPickViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CC3DE2F2293FAC600C004DE /* RFPickViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC3DE3F2293FAC600C004DE /* Build configuration list for PBXNativeTarget "RFPickViewUITests" */;
+			buildPhases = (
+				5CC3DE2C2293FAC600C004DE /* Sources */,
+				5CC3DE2D2293FAC600C004DE /* Frameworks */,
+				5CC3DE2E2293FAC600C004DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC3DE322293FAC600C004DE /* PBXTargetDependency */,
+			);
+			name = RFPickViewUITests;
+			productName = RFPickViewUITests;
+			productReference = 5CC3DE302293FAC600C004DE /* RFPickViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CC3DE092293FAC400C004DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = aomiao;
+				TargetAttributes = {
+					5CC3DE102293FAC400C004DE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5CC3DE242293FAC600C004DE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5CC3DE102293FAC400C004DE;
+					};
+					5CC3DE2F2293FAC600C004DE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5CC3DE102293FAC400C004DE;
+					};
+				};
+			};
+			buildConfigurationList = 5CC3DE0C2293FAC400C004DE /* Build configuration list for PBXProject "RFPickView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CC3DE082293FAC400C004DE;
+			productRefGroup = 5CC3DE122293FAC400C004DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CC3DE102293FAC400C004DE /* RFPickView */,
+				5CC3DE242293FAC600C004DE /* RFPickViewTests */,
+				5CC3DE2F2293FAC600C004DE /* RFPickViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC3DE0F2293FAC400C004DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC3DE1F2293FAC600C004DE /* LaunchScreen.storyboard in Resources */,
+				5CC3DE1C2293FAC600C004DE /* Assets.xcassets in Resources */,
+				5CC3DE1A2293FAC400C004DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC3DE232293FAC600C004DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC3DE2E2293FAC600C004DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CC3DE0D2293FAC400C004DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC3DE172293FAC400C004DE /* ViewController.swift in Sources */,
+				5CC3DE152293FAC400C004DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC3DE212293FAC600C004DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC3DE2A2293FAC600C004DE /* RFPickViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC3DE2C2293FAC600C004DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC3DE352293FAC600C004DE /* RFPickViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CC3DE272293FAC600C004DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC3DE102293FAC400C004DE /* RFPickView */;
+			targetProxy = 5CC3DE262293FAC600C004DE /* PBXContainerItemProxy */;
+		};
+		5CC3DE322293FAC600C004DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC3DE102293FAC400C004DE /* RFPickView */;
+			targetProxy = 5CC3DE312293FAC600C004DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CC3DE182293FAC400C004DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC3DE192293FAC400C004DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CC3DE1D2293FAC600C004DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC3DE1E2293FAC600C004DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CC3DE372293FAC600C004DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CC3DE382293FAC600C004DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CC3DE3A2293FAC600C004DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFPickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aomiao.rv-app-s.RFPickView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CC3DE3B2293FAC600C004DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFPickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aomiao.rv-app-s.RFPickView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CC3DE3D2293FAC600C004DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFPickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aomiao.rv-app-s.RFPickViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFPickView.app/RFPickView";
+			};
+			name = Debug;
+		};
+		5CC3DE3E2293FAC600C004DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFPickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aomiao.rv-app-s.RFPickViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFPickView.app/RFPickView";
+			};
+			name = Release;
+		};
+		5CC3DE402293FAC600C004DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFPickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aomiao.rv-app-s.RFPickViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RFPickView;
+			};
+			name = Debug;
+		};
+		5CC3DE412293FAC600C004DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFPickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aomiao.rv-app-s.RFPickViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RFPickView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CC3DE0C2293FAC400C004DE /* Build configuration list for PBXProject "RFPickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC3DE372293FAC600C004DE /* Debug */,
+				5CC3DE382293FAC600C004DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC3DE392293FAC600C004DE /* Build configuration list for PBXNativeTarget "RFPickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC3DE3A2293FAC600C004DE /* Debug */,
+				5CC3DE3B2293FAC600C004DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC3DE3C2293FAC600C004DE /* Build configuration list for PBXNativeTarget "RFPickViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC3DE3D2293FAC600C004DE /* Debug */,
+				5CC3DE3E2293FAC600C004DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC3DE3F2293FAC600C004DE /* Build configuration list for PBXNativeTarget "RFPickViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC3DE402293FAC600C004DE /* Debug */,
+				5CC3DE412293FAC600C004DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CC3DE092293FAC400C004DE /* Project object */;
+}
