@@ -14,6 +14,8 @@
 		5CC3DE1F2293FAC600C004DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3DE1D2293FAC600C004DE /* LaunchScreen.storyboard */; };
 		5CC3DE2A2293FAC600C004DE /* RFPickViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3DE292293FAC600C004DE /* RFPickViewTests.swift */; };
 		5CC3DE352293FAC600C004DE /* RFPickViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3DE342293FAC600C004DE /* RFPickViewUITests.swift */; };
+		5CC3DE442293FB0700C004DE /* RFPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3DE432293FB0700C004DE /* RFPickerView.swift */; };
+		5CC3DE462293FCCA00C004DE /* UIView+RFAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3DE452293FCCA00C004DE /* UIView+RFAdd.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5CC3DE302293FAC600C004DE /* RFPickViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFPickViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC3DE342293FAC600C004DE /* RFPickViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFPickViewUITests.swift; sourceTree = "<group>"; };
 		5CC3DE362293FAC600C004DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC3DE432293FB0700C004DE /* RFPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFPickerView.swift; sourceTree = "<group>"; };
+		5CC3DE452293FCCA00C004DE /* UIView+RFAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+RFAdd.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		5CC3DE132293FAC400C004DE /* RFPickView */ = {
 			isa = PBXGroup;
 			children = (
+				5CC3DE422293FACF00C004DE /* RFPickerView */,
 				5CC3DE142293FAC400C004DE /* AppDelegate.swift */,
 				5CC3DE162293FAC400C004DE /* ViewController.swift */,
 				5CC3DE182293FAC400C004DE /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				5CC3DE362293FAC600C004DE /* Info.plist */,
 			);
 			path = RFPickViewUITests;
+			sourceTree = "<group>";
+		};
+		5CC3DE422293FACF00C004DE /* RFPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				5CC3DE452293FCCA00C004DE /* UIView+RFAdd.swift */,
+				5CC3DE432293FB0700C004DE /* RFPickerView.swift */,
+			);
+			path = RFPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC3DE442293FB0700C004DE /* RFPickerView.swift in Sources */,
 				5CC3DE172293FAC400C004DE /* ViewController.swift in Sources */,
+				5CC3DE462293FCCA00C004DE /* UIView+RFAdd.swift in Sources */,
 				5CC3DE152293FAC400C004DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
